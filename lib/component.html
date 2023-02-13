@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to sankara's component library</title>
+    <!--<style> one way of css
+        body{
+            color:red
+        }
+    </style> -->
+    <!-- third way of using css linking another file-->
+    <link href = "/stylesheet.css" rel = "stylesheet">
+</head>
+<body>
+    <h1>Sankara's component library</h1> <!--style = "color:red" -->
+    <p>hii! i am creating a library which would make all my projects look good and consistent.</p>
+    <hr >
+    <h2>@topography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>
+        Let me show you how normal text looks like. this is freeflowing and will be like this till the end.
+    </p>
+    <p>this para has a bold word<strong> bold</strong></p>
+    <small>this is relatively smaller text</small>
+    <hr>
+    <h2>@containers</h2>
+    <h3>@fluid container</h3>
+    <div class = "container">this goes from left to right complete page with some small margins left</div>
+    <h3>@centre container</h3>
+    <div class = "container container-centre">this goes from centre to given width</div>
+    <hr>
+    <h2>@links</h2>
+    <a class = "link primary_link"href = "/">primarylink</a>
+    <a class = "link secondary_link" href = "/">secondarylink</a>
+    <hr>
+    <h2>@lists</h2>
+    <h3>unordered lists</h3>
+    <p>
+        this has no bullets
+    </p>
+    <ul class = "list_non_bullet">
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ul>
+    <h3>unordered inline lists</h3>
+    <ul class = "list_non_bullet">
+        <li class = "element_inline">apple</li>
+        <li class = "element_inline">banana</li>
+        <li class = "element_inline">grapes</li>
+    </ul>
+    <h3>ordered lists</h3>
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ol>
+    <h3>reverse ordered lists</h3>
+    <ol reversed>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>
+    </ol>
+    <hr>
+    <h2>@nav</h2>
+    <nav class = "navigation container">
+        <div class = "nav_brand"> techintro</div>
+        <ul class = "list_non_bullet nav_pills">
+            <li class = "element_inline">
+                <a class = "link link_active" href = "/">home</a>
+            </li>
+            <li class = "element_inline">
+                <a class = "link" href = "/">products</a>
+            </li>
+            <li class = "element_inline">
+                <a class = "link" href = "/">about us</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <h2>@header</h2>
+    <header class = "hero">
+        
+        <img class = "hero_img" src="/hero.svg"></img>
+        <h1 class = "hero_heading">welcome to <span class = "heading_inverted">webdev</span></h1>
+        
+    </header>
+    <hr>
+    <h2>@section</h2>
+    <section class = "section">
+        <div class = "container container-centre">
+        <h1>white section</h1>
+        <p>MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.</p>
+        </div>
+    </section>
+    <section class = "section ow">
+        <div class = "container container-centre">
+        <h1>off-white section</h1>
+        <p>MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers. It was started by Mozilla in 2005 as a unified place for documentation about open web standards, Mozilla's own projects, and developer guides.</p>
+        </div>
+    </section>
+    <hr>
+    <h2>@footer</h2>
+    <footer class = "footer">
+        <div class = "footer_header">this part is small header inside footer and one cannot use h1toh6 tags inside footer</div>
+        <ul class = "list_non_bullet">
+            <li class = "element_inline">
+                <a class = "link" href = "/">socialone</a>
+            </li>
+            <li class = "element_inline">
+                <a class = "link" href = "/">socialtwo</a>
+            </li>
+            <li class = "element_inline">
+                <a class = "link" href = "/">socialthree</a>
+            </li>
+
+        </ul>
+    </footer>
+    
+    
+</body>
+</html>

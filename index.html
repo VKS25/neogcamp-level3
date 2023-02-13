@@ -4,99 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>welcome to sankara's component library</title>
+    <title>home|adarshbalak</title>
+    <link href = "stylesheet.css" rel = "stylesheet" >
 </head>
 <body>
-    <h1>Sankara's component library</h1>
-    <p>hii! i am creating a library which would make all my projects look good and consistent.</p>
-    <hr >
-    <h2>@topography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>
-        Let me show you how normal text looks like. this is freeflowing and will be like this till the end.
-    </p>
-    <small>this is relatively smaller text</small>
-    <hr>
-    <h2>@containers</h2>
-    <h3>@fluid container</h3>
-    <p>this goes from left to right complete page with some small margins left</p>
-    <h3>@centre container</h3>
-    <p>this goes from centre to given width</p>
-    <hr>
-    <h2>@links</h2>
-    <a href = "/">primarylink</a>
-    <a href = "/">secondarylink</a>
-    <hr>
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
-    <ul>
-        <li>apple</li>
-        <li>banana</li>
-        <li>grapes</li>
-    </ul>
-    <h3>unordered inline lists</h3>
-    <ul>
-        <li>apple</li>
-        <li>banana</li>
-        <li>grapes</li>
-    </ul>
-    <h3>ordered lists</h3>
-    <ol>
-        <li>apple</li>
-        <li>banana</li>
-        <li>grapes</li>
-    </ol>
-    <h3>reverse ordered lists</h3>
-    <ol>
-        <li>apple</li>
-        <li>banana</li>
-        <li>grapes</li>
-    </ol>
-    <hr>
-    <h2>@nav</h2>
-    <nav>
-        <div>techintro</div>
-        <ul>
-            <li>
-                <a href = "/">home</a>
+    <nav class = "navigation container">
+        <div class = "nav_brand">zencdev</div>
+        <ul class = "list_non_bullet nav_pills">
+            <li class = "element_inline">
+                <a class = "link link_active" href = "/">home</a>
             </li>
-            <li>
-                <a href = "/">products</a>
+            <li class = "element_inline">
+                <a class = "link" href = "/projects.html">projects</a>
             </li>
-            <li>
-                <a href = "/">about us</a>
+            <li class = "element_inline">
+                <a class = "link" href = "/blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
-    <h2>@header</h2>
-    <header>
-        <img src="hero.svg"></img>
-        <h1>welcome to webdev</h1>
+    <header class = "hero">
+        
+        <img class = "hero_img" src="hero.svg"></img>
+        <h1 class = "hero_heading">welcome to <span class = "heading_inverted">webdev</span></h1>
+        
     </header>
-    <hr>
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>this has white background</p>
+    <section class = "section ow">
+        <div class = "container container-centre">
+        <h1>technologies known</h1>
+        <p>I am familiar with C,Python,Html,CSS,basic level java</p>
+        </div>
     </section>
-    <section>
-        <h3>off-white section</h3>
-        <p>this has grey background</p>
+    <section class = "section">
+        <div class = "container container-centre">
+        <h1>Projects</h1>
+        <p>some projects done</p>
+        <a style = "margin-left: 16rem" class = "link primary_link" href = "/">see projects</a>
+        </div>
     </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>this part is small header inside footer and one cannot use h1toh6 tags inside footer</div>
-        <ul>
-            <li>social one</li>
-            <li>social two</li>
-            <li>social three</li>
+    <section class = "section ow">
+        <div class = "container container-centre">
+        <h1>blogs</h1>
+        <p>some blogs written with some experience while doing tanay pratap's neog camp level zero.</p>
+        <a style = "margin-left: 17rem" class = "link secondary_link" href = "/">see blogs</a>
+        </div>
+    </section>
+    <footer class = "footer">
+        <div class = "footer_header">connect with me socially</div>
+        <ul class = "list_non_bullet">
+            <li class = "element_inline">
+                <a class = "link" href = "/">github</a>
+            </li>
+            <li class = "element_inline">
+                <a class = "link" href = "/">twitter</a>
+            </li>
+            <li class = "element_inline">
+                <a class = "link" href = "/">linkedin</a>
+            </li>
 
         </ul>
     </footer>
-    
-    
+
 </body>
 </html>
